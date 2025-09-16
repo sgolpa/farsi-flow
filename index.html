@@ -2,56 +2,72 @@
 <html lang="sv">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Farsi Flashcards (MVP)</title>
-  <link rel="stylesheet" href="styles.css" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>farsiflow</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Vazirmatn:wght@500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header class="app-header">
-    <div class="brand">
-      <strong>Farsi Flashcards</strong>
-      <span class="muted">MVP – ord­förråd</span>
-    </div>
 
-    <div class="controls">
-      <label for="mode" class="lbl">Riktning</label>
-      <select id="mode" aria-label="Träningsläge">
-        <option value="fa2sv" selected>fa → sv</option>
-        <option value="sv2fa">sv → fa</option>
-        <option value="mixed">blanda</option>
-      </select>
+  <header>
+    <img src="logo.svg" alt="farsiflow logo" class="logo">
+  <button id="modeToggle" class="top-btn">
+    <span id="modeLabel">Farsi → Svenska</span>
+  </button>
+  <button id="newSession" class="top-btn">Ny session</button>
+</header>
 
-      <button id="reset" class="btn secondary" title="Starta om dagens session">Ny session</button>
-    </div>
-  </header>
+  <main>
+    <!-- Kortet -->
+    <section id="card" aria-live="polite" aria-atomic="true">
+      <div id="front" role="group" aria-label="Framsida">
+  <p id="front-fa" dir="rtl"></p>
+  <button id="revealBtn" class="btn primary" aria-controls="back">
+    Visa
+  </button>
+</div>
 
-  <main class="container">
-    <section class="progress">
-      <div><span id="counter">0</span> repetitioner idag</div>
-      <div>i kön: <span id="queueLen">0</span></div>
-    </section>
-
-    <section class="card" aria-live="polite">
-      <div id="front" class="face front"></div>
-      <div id="back" class="face back" hidden>
-        <div id="backMeaning" class="meaning"></div>
-        <div id="backTranslit" class="translit"></div>
-        <div id="examples" class="examples"></div>
       </div>
-      <button id="reveal" class="btn reveal" aria-controls="back" aria-expanded="false">Visa</button>
+
+      <div id="back" role="group" aria-label="Baksida" hidden>
+        <!-- Huvudord -->
+        <p id="back-fa" dir="rtl"></p>
+        <small id="back-translit" class="chip"></small>
+        <p id="back-sv"></p>
+
+        <hr aria-label="Exempel divider" />
+
+        <!-- Exempel -->
+        <p id="ex-fa" dir="rtl"></p>
+        <small id="ex-translit" class="chip"></small>
+        <p id="ex-sv"></p>
+      </div>
     </section>
 
-    <section class="grading">
-      <button class="btn danger"   id="g1" disabled><kbd>1</kbd> Igen</button>
-      <button class="btn warning"  id="g2" disabled><kbd>2</kbd> Okej</button>
-      <button class="btn success"  id="g3" disabled><kbd>3</kbd> Lätt</button>
-    </section>
+    <!-- Graderingsknappar: syns först efter Visa -->
+   <section id="grading" aria-label="Gradering" hidden>
+    <button id="grade-1" class="btn grade" data-grade="1" aria-keyshortcuts="1">
+      <span class="emoji">😖</span>
+      <span class="label">Svårt</span>
+    </button>
+    <button id="grade-2" class="btn grade" data-grade="2" aria-keyshortcuts="2">
+      <span class="emoji">🙂</span>
+      <span class="label">Okej</span>
+    </button>
+    <button id="grade-3" class="btn grade" data-grade="3" aria-keyshortcuts="3">
+      <span class="emoji">🤓</span>
+      <span class="label">Lätt</span>
+    </button>
+</section>
 
-    <section class="help">
-      <p><strong>Tangentbord:</strong> <kbd>Mellanslag</kbd> = Visa/Dölj, <kbd>1</kbd>/<kbd>2</kbd>/<kbd>3</kbd> = betyg.</p>
-    </section>
   </main>
 
-  <script src="app.js" type="module"></script>
+  <footer>
+    <output id="progress" aria-live="polite">0 repetitioner</output>
+    <span> · </span>
+    <output id="queueLeft" aria-live="polite">0 kvar</output>
+  </footer>
+
+  <script src="app.js" defer></script>
 </body>
 </html>
