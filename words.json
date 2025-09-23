@@ -160,7 +160,7 @@
     "translit": "be nazaram",
     "sv": "enligt mig / jag tycker",
     "examples": [
-      { "fa": "به نظرم باید زودتر شروع کنیم.", "translit": "be nazaram bâyad zoodtar shoru’ konim.", "sv": "Jag tycker vi borde börja tidigare." }
+      { "fa": "به نظرم باید زودتر شروع کنیم.", "translit": "be nazaram bâyad zoodtar shoru konim.", "sv": "Jag tycker vi borde börja tidigare." }
     ],
     "tags": ["tema:åsikter-resonemang", "nivå:1"]
   },
