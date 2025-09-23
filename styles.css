@@ -41,7 +41,7 @@ header {
   flex-direction: column; /* titel ovanför knappen */
   align-items: center;    /* centrera horisontellt */
   gap: 24px;               /* lite luft mellan titel och knapp */
-  margin-top: 24px;
+  margin-top: 12px;
 }
 
 header, footer { width: 100%; max-width: 420px; }
