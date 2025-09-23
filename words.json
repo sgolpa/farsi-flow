@@ -1,758 +1,58 @@
 [
   {
-    "id": "ghabool-kardan",
+    "id": "hâl-nadaram",
+    "pos": "phrase",
+    "fa": "حال ندارم",
+    "translit": "hâl nadaram",
+    "sv": "jag orkar inte / jag har ingen lust",
+    "examples": [
+      { "fa": "امروز حال ندارم کار کنم.", "translit": "emruz hâl nadaram kâr konam.", "sv": "Idag orkar jag inte jobba." }
+    ],
+    "tags": ["tema:känslor-humör", "nivå:2"]
+  },
+  {
+    "id": "delam-barat-tang-shode",
+    "pos": "phrase",
+    "fa": "دلم برات تنگ شده",
+    "translit": "delam barât tang shode",
+    "sv": "jag saknar dig",
+    "examples": [
+      { "fa": "خیلی وقته ندیدمت، دلم برات تنگ شده.", "translit": "kheyli vaghte nadidamet, delam barât tang shode.", "sv": "Jag har inte sett dig på länge, jag saknar dig." }
+    ],
+    "tags": ["tema:känslor-humör", "nivå:2"]
+  },
+  {
+    "id": "asâb-nadaram",
+    "pos": "phrase",
+    "fa": "اعصاب ندارم",
+    "translit": "asâb nadaram",
+    "sv": "jag har inget tålamod",
+    "examples": [
+      { "fa": "این روزا اصلاً اعصاب ندارم.", "translit": "in ruzâ aslan asâb nadaram.", "sv": "Nu för tiden har jag verkligen inget tålamod." }
+    ],
+    "tags": ["tema:känslor-humör", "nivå:2"]
+  },
+  {
+    "id": "havas-kardan",
     "pos": "verb",
-    "fa": "قبول کردن",
-    "translit": "qabul kardan",
-    "sv": "att acceptera / gå med på",
+    "fa": "هوس کردن",
+    "translit": "havas kardan",
+    "sv": "att bli sugen på något",
     "examples": [
-      {
-        "fa": "آخرش قبول کردم.",
-        "translit": "âkharesh qabul kardam.",
-        "sv": "Till slut gick jag med på det."
-      }
+      { "fa": "هوس پیتزا کردم.", "translit": "havase pitzâ kardam.", "sv": "Jag blev sugen på pizza." }
     ],
-    "tags": ["tema:vardag", "nivå:2"]
+    "tags": ["tema:känslor-humör", "nivå:2"]
   },
   {
-    "id": "sohbat-kardan",
-    "pos": "verb",
-    "fa": "صحبت کردن",
-    "translit": "sohbat kardan",
-    "sv": "att prata",
+    "id": "bi-hâlam",
+    "pos": "phrase",
+    "fa": "بی‌حالم",
+    "translit": "bi hâlam",
+    "sv": "jag är hängig / seg",
     "examples": [
-      {
-        "fa": "دیروز با دوستم صحبت کردم.",
-        "translit": "diruz bâ dustam sohbat kardam.",
-        "sv": "Jag pratade med min vän igår."
-      }
+      { "fa": "امروز بی‌حالم، نمی‌خوام برم بیرون.", "translit": "emruz bi hâlam, nemikhâm beram birun.", "sv": "Jag är hängig idag, vill inte gå ut." }
     ],
-    "tags": ["tema:vardag", "nivå:1"]
-  },
-  {
-    "id": "movafegh-budan",
-    "pos": "verb",
-    "fa": "موافق بودن",
-    "translit": "movâfegh budan",
-    "sv": "att hålla med",
-    "examples": [
-      {
-        "fa": "آره، موافقم.",
-        "translit": "âre, movâfegham.",
-        "sv": "Ja, jag håller med."
-      }
-    ],
-    "tags": ["tema:vardag", "nivå:1"]
-  },
-  {
-    "id": "tahvil-gereftan",
-    "pos": "verb",
-    "fa": "تحویل گرفتن",
-    "translit": "tahvil gereftan",
-    "sv": "att ta emot (leverans)",
-    "examples": [
-      {
-        "fa": "بسته رو گرفتم.",
-        "translit": "baste ro gereftam.",
-        "sv": "Jag tog emot paketet."
-      }
-    ],
-    "tags": ["tema:vardag", "nivå:2"]
-  },
-  {
-    "id": "khabar",
-    "pos": "noun",
-    "fa": "خبر",
-    "translit": "khabar",
-    "sv": "nyhet / att höra av sig",
-    "examples": [
-      {
-        "fa": "خیلی وقته ازت خبر ندارم.",
-        "translit": "kheili vaghte azat khabar nadâram.",
-        "sv": "Jag har inte hört av dig på länge."
-      }
-    ],
-    "tags": ["tema:relation", "nivå:2"]
-  },
-  {
-    "id": "moshkel",
-    "pos": "noun",
-    "fa": "مشکل",
-    "translit": "moshkel",
-    "sv": "problem",
-    "examples": [
-      {
-        "fa": "این موضوع برام مشکل شده.",
-        "translit": "in mozoo barâm moshkel shode.",
-        "sv": "Det här har blivit ett problem för mig."
-      }
-    ],
-    "tags": ["tema:vardag", "nivå:1"]
-  },
-  {
-    "id": "javab-dadan",
-    "pos": "verb",
-    "fa": "جواب دادن",
-    "translit": "javâb dâdan",
-    "sv": "att svara",
-    "examples": [
-      {
-        "fa": "چرا جواب ندادی؟",
-        "translit": "cherâ javâb nadâdi?",
-        "sv": "Varför svarade du inte?"
-      }
-    ],
-    "tags": ["tema:vardag", "nivå:1"]
-  },
-  {
-    "id": "lotf",
-    "pos": "noun",
-    "fa": "لطف",
-    "translit": "lotf",
-    "sv": "tjänst / vänlighet",
-    "examples": [
-      {
-        "fa": "میشه یه لطفی بکنی؟",
-        "translit": "mishe ye lotfi bokoni?",
-        "sv": "Kan du göra mig en tjänst?"
-      }
-    ],
-    "tags": ["tema:relation", "nivå:2"]
-  },
-  {
-    "id": "pishraft",
-    "pos": "noun",
-    "fa": "پیشرفت",
-    "translit": "pishraft",
-    "sv": "framsteg",
-    "examples": [
-      {
-        "fa": "خیلی پیشرفت کردی.",
-        "translit": "kheili pishraft kardi.",
-        "sv": "Du har gjort stora framsteg."
-      }
-    ],
-    "tags": ["tema:personlig-utveckling", "nivå:2"]
-  },
-  {
-    "id": "asasan",
-    "pos": "adverb",
-    "fa": "اساساً",
-    "translit": "asâsan",
-    "sv": "egentligen / i grunden",
-    "examples": [
-      {
-        "fa": "من اساساً با این کار مخالفم.",
-        "translit": "man asâsan bâ in kâr mokhâlefam.",
-        "sv": "Jag är egentligen emot det här."
-      }
-    ],
-    "tags": ["tema:vardag", "nivå:3"]
-  },
-  {
-    "id": "negah-kardan",
-    "pos": "verb",
-    "fa": "نگاه کردن",
-    "translit": "negâh kardan",
-    "sv": "att titta / kolla",
-    "examples": [
-      {
-        "fa": "بیا اینو نگاه کن.",
-        "translit": "biyâ ino negâh kon.",
-        "sv": "Kom och kolla på det här."
-      }
-    ],
-    "tags": ["tema:vardag", "nivå:1"]
-  },
-  {
-    "id": "faramoosh-kardan",
-    "pos": "verb",
-    "fa": "فراموش کردن",
-    "translit": "farâmush kardan",
-    "sv": "att glömma",
-    "examples": [
-      {
-        "fa": "کلیدامو فراموش کردم.",
-        "translit": "kelidâmo farâmush kardam.",
-        "sv": "Jag glömde mina nycklar."
-      }
-    ],
-    "tags": ["tema:vardag", "nivå:1"]
-  },
-  {
-    "id": "dark-kardan",
-    "pos": "verb",
-    "fa": "درک کردن",
-    "translit": "dark kardan",
-    "sv": "att förstå (på djupet)",
-    "examples": [
-      {
-        "fa": "حرفتو درک می‌کنم.",
-        "translit": "harfeto dark mikonam.",
-        "sv": "Jag förstår vad du säger."
-      }
-    ],
-    "tags": ["tema:relation", "nivå:2"]
-  },
-  {
-    "id": "hes-kardan",
-    "pos": "verb",
-    "fa": "حس کردن",
-    "translit": "hes kardan",
-    "sv": "att känna / känna av",
-    "examples": [
-      {
-        "fa": "حس می‌کنم خسته‌ای.",
-        "translit": "hes mikonam khastei.",
-        "sv": "Jag känner att du är trött."
-      }
-    ],
-    "tags": ["tema:känslor", "nivå:2"]
-  },
-  {
-    "id": "del-tang-shodan",
-    "pos": "verb",
-    "fa": "دلتنگ شدن",
-    "translit": "deltang shodan",
-    "sv": "att sakna",
-    "examples": [
-      {
-        "fa": "خیلی دلتنگت شدم.",
-        "translit": "kheili deltanget shodam.",
-        "sv": "Jag har saknat dig mycket."
-      }
-    ],
-    "tags": ["tema:känslor", "nivå:2"]
-  },
-  {
-    "id": "fekr-kardan",
-    "pos": "verb",
-    "fa": "فکر کردن",
-    "translit": "fekr kardan",
-    "sv": "att tänka",
-    "examples": [
-      {
-        "fa": "فکر می‌کنم حق با توئه.",
-        "translit": "fekr mikonam hagh bâ to-e.",
-        "sv": "Jag tror du har rätt."
-      }
-    ],
-    "tags": ["tema:vardag", "nivå:1"]
-  },
-  {
-    "id": "omidvar-budan",
-    "pos": "verb",
-    "fa": "امیدوار بودن",
-    "translit": "omidvâr budan",
-    "sv": "att hoppas",
-    "examples": [
-      {
-        "fa": "امیدوارم همه‌چیز خوب بشه.",
-        "translit": "omidvâram hamechiz khub beshe.",
-        "sv": "Jag hoppas allt blir bra."
-      }
-    ],
-    "tags": ["tema:känslor", "nivå:1"]
-  },
-  {
-    "id": "tajrobé",
-    "pos": "noun",
-    "fa": "تجربه",
-    "translit": "tajrobeh",
-    "sv": "erfarenhet",
-    "examples": [
-      {
-        "fa": "تجربه خوبی بود.",
-        "translit": "tajrobeh-ye khubi bud.",
-        "sv": "Det var en bra erfarenhet."
-      },
-      {
-    "fa": "تجربه کاری زیادی دارم.",
-    "translit": "tajrobeh-ye kâri ziâdi dâram.",
-    "sv": "Jag har mycket arbetserfarenhet."
-      }
-    ],
-    "tags": ["tema:personlig-utveckling", "nivå:2"]
-  },
-  {
-    "id": "gharar-gereftan",
-    "pos": "verb",
-    "fa": "قرار گرفتن",
-    "translit": "gharâr gereftan",
-    "sv": "att bestämma träff / stämma möte",
-    "examples": [
-      {
-        "fa": "قرار شد فردا همدیگه رو ببینیم.",
-        "translit": "gharâr shod fardâ hamdige ro bebinim.",
-        "sv": "Vi bestämde att ses imorgon."
-      }
-    ],
-    "tags": ["tema:relation", "nivå:2"]
-  },
-  {
-    "id": "khosh-gozarondan",
-    "pos": "verb",
-    "fa": "خوش گذراندن",
-    "translit": "khosh gozarândan",
-    "sv": "att ha det trevligt",
-    "examples": [
-      {
-        "fa": "دیروز خیلی خوش گذشت.",
-        "translit": "diruz kheili khosh gozasht.",
-        "sv": "Igår var det riktigt trevligt."
-      }
-    ],
-    "tags": ["tema:vardag", "nivå:2"]
-  },
-   {
-    "id": "ghazavat-kardan",
-    "pos": "verb",
-    "fa": "قضاوت کردن",
-    "translit": "ghazâvat kardan",
-    "sv": "att döma / bedöma",
-    "examples": [
-      {
-        "fa": "زود قضاوت نکن.",
-        "translit": "zud ghazâvat nakon.",
-        "sv": "Döm inte för snabbt."
-      }
-    ],
-    "tags": ["tema:relation", "nivå:2"]
-  },
-  {
-    "id": "ehsasat",
-    "pos": "noun",
-    "fa": "احساسات",
-    "translit": "ehsâsât",
-    "sv": "känslor",
-    "examples": [
-      {
-        "fa": "نمی‌دونم چجوری احساساتمو بگم.",
-        "translit": "nemidunam chejuri ehsâsâtamo begam.",
-        "sv": "Jag vet inte hur jag ska uttrycka mina känslor."
-      }
-    ],
-    "tags": ["tema:känslor", "nivå:2"]
-  },
-  {
-    "id": "ghayeb-shodan",
-    "pos": "verb",
-    "fa": "غایب شدن",
-    "translit": "ghâyeb shodan",
-    "sv": "att försvinna / vara borta",
-    "examples": [
-      {
-        "fa": "چرا یه مدت غایب شدی؟",
-        "translit": "cherâ ye moddat ghâyeb shodi?",
-        "sv": "Varför försvann du ett tag?"
-      }
-    ],
-    "tags": ["tema:vardag", "nivå:2"]
-  },
-  {
-    "id": "moghayese-kardan",
-    "pos": "verb",
-    "fa": "مقایسه کردن",
-    "translit": "moghâyese kardan",
-    "sv": "att jämföra",
-    "examples": [
-      {
-        "fa": "خودتو با بقیه مقایسه نکن.",
-        "translit": "khodeto bâ baghie moghâyese nakon.",
-        "sv": "Jämför dig inte med andra."
-      }
-    ],
-    "tags": ["tema:personlig-utveckling", "nivå:2"]
-  },
-  {
-    "id": "entezar-dashtan",
-    "pos": "verb",
-    "fa": "انتظار داشتن",
-    "translit": "entezâr dâshtan",
-    "sv": "att förvänta sig",
-    "examples": [
-      {
-        "fa": "ازت انتظار بیشتری داشتم.",
-        "translit": "azat entezâr-e bishtari dâshtam.",
-        "sv": "Jag förväntade mig mer av dig."
-      }
-    ],
-    "tags": ["tema:relation", "nivå:2"]
-  },
-  {
-    "id": "havas",
-    "pos": "noun",
-    "fa": "حواس",
-    "translit": "havâs",
-    "sv": "uppmärksamhet / sinnen",
-    "examples": [
-      {
-        "fa": "حواست کجاست؟",
-        "translit": "havâset kojâst?",
-        "sv": "Var har du tankarna?"
-      }
-    ],
-    "tags": ["tema:vardag", "nivå:2"]
-  },
-  {
-    "id": "negaraani",
-    "pos": "noun",
-    "fa": "نگرانی",
-    "translit": "negarâni",
-    "sv": "oro",
-    "examples": [
-      {
-        "fa": "هیچ نگرانی نداشته باش.",
-        "translit": "hich negarâni nadaste bâsh.",
-        "sv": "Var inte orolig."
-      }
-    ],
-    "tags": ["tema:känslor", "nivå:1"]
-  },
-  {
-    "id": "etefagh-oftadan",
-    "pos": "verb",
-    "fa": "اتفاق افتادن",
-    "translit": "etefâgh oftâdan",
-    "sv": "att hända",
-    "examples": [
-      {
-        "fa": "دیروز یه اتفاق عجیب افتاد.",
-        "translit": "diruz ye etefâgh ajib oftâd.",
-        "sv": "Igår hände något konstigt."
-      }
-    ],
-    "tags": ["tema:vardag", "nivå:1"]
-  },
-  {
-    "id": "ashti-kardan",
-    "pos": "verb",
-    "fa": "آشتی کردن",
-    "translit": "âshti kardan",
-    "sv": "att bli sams / försonas",
-    "examples": [
-      {
-        "fa": "بالاخره با هم آشتی کردن.",
-        "translit": "belakhare bâ ham âshti kardan.",
-        "sv": "De blev äntligen sams."
-      }
-    ],
-    "tags": ["tema:relation", "nivå:2"]
-  },
-  {
-    "id": "tasadof",
-    "pos": "noun",
-    "fa": "تصادف",
-    "translit": "tasâdof",
-    "sv": "olycka / krock",
-    "examples": [
-      {
-        "fa": "امروز توی خیابون تصادف دیدم.",
-        "translit": "emruz tu-ye khiâbun tasâdof didam.",
-        "sv": "Idag såg jag en olycka på gatan."
-      }
-    ],
-    "tags": ["tema:vardag", "nivå:2"]
-  },
-  {
-    "id": "etebar",
-    "pos": "noun",
-    "fa": "اعتبار",
-    "translit": "etebâr",
-    "sv": "förtroende / kredit",
-    "examples": [
-      {
-        "fa": "بین دوستاش اعتبار داره.",
-        "translit": "beyn-e dustâsh etebâr dâre.",
-        "sv": "Han/hon har förtroende bland sina vänner."
-      }
-    ],
-    "tags": ["tema:relation", "nivå:2"]
-  },
-  {
-    "id": "mosâhebe",
-    "pos": "noun",
-    "fa": "مصاحبه",
-    "translit": "mosâhebe",
-    "sv": "intervju",
-    "examples": [
-      {
-        "fa": "دیروز برای کار مصاحبه داشتم.",
-        "translit": "diruz barâye kâr mosâhebe dâshtam.",
-        "sv": "Jag hade en jobbintervju igår."
-      }
-    ],
-    "tags": ["tema:arbete", "nivå:2"]
-  },
-  {
-    "id": "mosâlehe",
-    "pos": "noun",
-    "fa": "مصالحه",
-    "translit": "mosâlehe",
-    "sv": "kompromiss",
-    "examples": [
-      {
-        "fa": "بالاخره به مصالحه رسیدن.",
-        "translit": "belakhare be mosâlehe residan.",
-        "sv": "Till slut nådde de en kompromiss."
-      }
-    ],
-    "tags": ["tema:relation", "nivå:3"]
-  },
-  {
-  "id": "motmaen-budan",
-  "pos": "verb",
-  "fa": "مطمئن بودن",
-  "translit": "motma’en budan",
-  "sv": "att vara säker",
-  "examples": [
-    {
-      "fa": "مطمئنم که درست میگی.",
-      "translit": "motma’enam ke dorost migi.",
-      "sv": "Jag är säker på att du har rätt."
-    }
-  ],
-  "tags": ["tema:vardag", "nivå:1"]
-  },
-  {
-    "id": "tavajoh-kardan",
-    "pos": "verb",
-    "fa": "توجه کردن",
-    "translit": "tavajoh kardan",
-    "sv": "att uppmärksamma",
-    "examples": [
-      {
-        "fa": "به حرفام توجه کن.",
-        "translit": "be harfâm tavajoh kon.",
-        "sv": "Lyssna på vad jag säger."
-      }
-    ],
-    "tags": ["tema:relation", "nivå:2"]
-  },
-  {
-    "id": "fargh-dashtan",
-    "pos": "verb",
-    "fa": "فرق داشتن",
-    "translit": "fargh dâshtan",
-    "sv": "att vara annorlunda / skilja sig",
-    "examples": [
-      {
-        "fa": "این دوتا خیلی با هم فرق دارن.",
-        "translit": "in dota kheili bâ ham fargh dâran.",
-        "sv": "De här två är väldigt olika."
-      }
-    ],
-    "tags": ["tema:vardag", "nivå:1"]
-  },
-  {
-    "id": "hamdeli",
-    "pos": "noun",
-    "fa": "همدلی",
-    "translit": "hamdeli",
-    "sv": "empati / medkänsla",
-    "examples": [
-      {
-        "fa": "همدلی خیلی مهمه.",
-        "translit": "hamdeli kheili moheme.",
-        "sv": "Empati är väldigt viktigt."
-      }
-    ],
-    "tags": ["tema:känslor", "nivå:2"]
-  },
-  {
-    "id": "eshtebah-kardan",
-    "pos": "verb",
-    "fa": "اشتباه کردن",
-    "translit": "eshtebâh kardan",
-    "sv": "att göra fel",
-    "examples": [
-      {
-        "fa": "اشتباه کردم.",
-        "translit": "eshtebâh kardam.",
-        "sv": "Jag gjorde ett misstag."
-      }
-    ],
-    "tags": ["tema:vardag", "nivå:1"]
-  },
-  {
-    "id": "mobârezé",
-    "pos": "noun",
-    "fa": "مبارزه",
-    "translit": "mobâreze",
-    "sv": "kamp / strid",
-    "examples": [
-      {
-        "fa": "مبارزه سختی بود.",
-        "translit": "mobâreze sakhti bud.",
-        "sv": "Det var en tuff kamp."
-      }
-    ],
-    "tags": ["tema:personlig-utveckling", "nivå:3"]
-  },
-  {
-    "id": "tasavor-kardan",
-    "pos": "verb",
-    "fa": "تصور کردن",
-    "translit": "tasavor kardan",
-    "sv": "att föreställa sig",
-    "examples": [
-      {
-        "fa": "نمیتونم تصور کنم.",
-        "translit": "nemitunam tasavor konam.",
-        "sv": "Jag kan inte föreställa mig."
-      }
-    ],
-    "tags": ["tema:vardag", "nivå:2"]
-  },
-  {
-    "id": "etminan-dashtan",
-    "pos": "verb",
-    "fa": "اطمینان داشتن",
-    "translit": "etminân dâshtan",
-    "sv": "att vara trygg / säker på",
-    "examples": [
-      {
-        "fa": "بهت اطمینان دارم.",
-        "translit": "behet etminân dâram.",
-        "sv": "Jag litar på dig."
-      }
-    ],
-    "tags": ["tema:relation", "nivå:2"]
-  },
-  {
-    "id": "hedayat-kardan",
-    "pos": "verb",
-    "fa": "هدایت کردن",
-    "translit": "hedâyat kardan",
-    "sv": "att guida / leda",
-    "examples": [
-      {
-        "fa": "معلم بچه‌ها رو هدایت می‌کنه.",
-        "translit": "mo’allem bachehâ ro hedayat mikone.",
-        "sv": "Läraren guidar barnen."
-      }
-    ],
-    "tags": ["tema:arbete", "nivå:3"]
-  },
-  {
-    "id": "ghasd",
-    "pos": "noun",
-    "fa": "قصد",
-    "translit": "ghasd",
-    "sv": "avsikt / mening",
-    "examples": [
-      {
-        "fa": "قصدم توهین نبود.",
-        "translit": "ghasdam tohin nabud.",
-        "sv": "Jag menade inte att förolämpa."
-      }
-    ],
-    "tags": ["tema:relation", "nivå:2"]
-  },
-  {
-    "id": "barresi-kardan",
-    "pos": "verb",
-    "fa": "بررسی کردن",
-    "translit": "barresi kardan",
-    "sv": "att kolla igenom / granska",
-    "examples": [
-      {
-        "fa": "اینو دوباره بررسی کن.",
-        "translit": "ino dobare barresi kon.",
-        "sv": "Kolla igenom det här igen."
-      }
-    ],
-    "tags": ["tema:arbete", "nivå:2"]
-  },
-  {
-    "id": "mehrabuni",
-    "pos": "noun",
-    "fa": "مهربونی",
-    "translit": "mehrabuni",
-    "sv": "vänlighet / snällhet",
-    "examples": [
-      {
-        "fa": "مهربونیت خیلی بهم کمک کرد.",
-        "translit": "mehrabunit kheili behem komak kard.",
-        "sv": "Din vänlighet hjälpte mig mycket."
-      }
-    ],
-    "tags": ["tema:känslor", "nivå:1"]
-  },
-  {
-    "id": "enteghad-kardan",
-    "pos": "verb",
-    "fa": "انتقاد کردن",
-    "translit": "enteghâd kardan",
-    "sv": "att kritisera",
-    "examples": [
-      {
-        "fa": "ازم انتقاد کرد.",
-        "translit": "azam enteghâd kard.",
-        "sv": "Han/hon kritiserade mig."
-      }
-    ],
-    "tags": ["tema:arbete", "nivå:2"]
-  },
-  {
-    "id": "movafaghiat",
-    "pos": "noun",
-    "fa": "موفقیت",
-    "translit": "movafaghiat",
-    "sv": "framgång",
-    "examples": [
-      {
-        "fa": "موفقیت بزرگی بود.",
-        "translit": "movafaghiat-e bozorgi bud.",
-        "sv": "Det var en stor framgång."
-      }
-    ],
-    "tags": ["tema:personlig-utveckling", "nivå:2"]
-  },
-  {
-    "id": "bahs-kardan",
-    "pos": "verb",
-    "fa": "بحث کردن",
-    "translit": "bahs kardan",
-    "sv": "att diskutera",
-    "examples": [
-      {
-        "fa": "دیشب کلی بحث کردیم.",
-        "translit": "dishab koli bahs kardim.",
-        "sv": "Vi diskuterade massor igår kväll."
-      }
-    ],
-    "tags": ["tema:relation", "nivå:2"]
-  },
-  {
-    "id": "tashvigh-kardan",
-    "pos": "verb",
-    "fa": "تشویق کردن",
-    "translit": "tashvigh kardan",
-    "sv": "att uppmuntra",
-    "examples": [
-      {
-        "fa": "دوستام منو تشویق کردن.",
-        "translit": "dustâm mano tashvigh kardan.",
-        "sv": "Mina vänner uppmuntrade mig."
-      }
-    ],
-    "tags": ["tema:relation", "nivå:2"]
-  },
-  {
-    "id": "lahze",
-    "pos": "noun",
-    "fa": "لحظه",
-    "translit": "lahze",
-    "sv": "ögonblick",
-    "examples": [
-      {
-        "fa": "اون لحظه رو هیچ‌وقت یادم نمیره.",
-        "translit": "un lahze ro hichvaqt yâdam nemire.",
-        "sv": "Jag kommer aldrig glömma det ögonblicket."
-      }
-    ],
-    "tags": ["tema:vardag", "nivå:2"]
+    "tags": ["tema:känslor-humör", "nivå:2"]
   },
   {
     "id": "asabi-shodan",
@@ -761,89 +61,220 @@
     "translit": "asabi shodan",
     "sv": "att bli arg / irriterad",
     "examples": [
-      {
-        "fa": "سر این موضوع عصبی شدم.",
-        "translit": "sar-e in mozoo asabi shodam.",
-        "sv": "Jag blev arg över det här."
-      }
+      { "fa": "سر چیزای کوچیک زود عصبی میشه.", "translit": "sar chizâye kuchik zud asâbi mishe.", "sv": "Han blir snabbt arg över småsaker." }
     ],
-    "tags": ["tema:känslor", "nivå:1"]
+    "tags": ["tema:känslor-humör", "nivå:2"]
   },
   {
-    "id": "khoshhal-shodan",
-    "pos": "verb",
-    "fa": "خوشحال شدن",
-    "translit": "khoshâl shodan",
-    "sv": "att bli glad",
+    "id": "hoselam-sar-rafte",
+    "pos": "phrase",
+    "fa": "حوصلم سر رفته",
+    "translit": "hoselam sar rafte",
+    "sv": "jag är uttråkad",
     "examples": [
-      {
-        "fa": "خیلی خوشحال شدم دیدمت.",
-        "translit": "kheili khoshâl shodam didamet.",
-        "sv": "Jag blev jätteglad att se dig."
-      }
+      { "fa": "کل روز خونه بودم، حوصلم سر رفته.", "translit": "kol ruz khune budam, hoselam sar rafte.", "sv": "Jag var hemma hela dagen, jag har haft så tråkigt." }
     ],
-    "tags": ["tema:känslor", "nivå:1"]
+    "tags": ["tema:känslor-humör", "nivå:2"]
   },
   {
-    "id": "montazer-budan",
-    "pos": "verb",
-    "fa": "منتظر بودن",
-    "translit": "montazer budan",
-    "sv": "att vänta",
+    "id": "delam-mikhâd",
+    "pos": "phrase",
+    "fa": "دلم می‌خواد",
+    "translit": "delam mikhâd",
+    "sv": "jag vill / jag känner för",
     "examples": [
-      {
-        "fa": "منتظرت بودم.",
-        "translit": "montazeret budam.",
-        "sv": "Jag väntade på dig."
-      }
+      { "fa": "دلم می‌خواد مسافرت برم.", "translit": "delam mikhâd mosâferat beram.", "sv": "Jag vill åka på en resa." }
     ],
-    "tags": ["tema:vardag", "nivå:1"]
+    "tags": ["tema:känslor-humör", "nivå:1"]
   },
   {
-    "id": "emtehân-kardan",
-    "pos": "verb",
-    "fa": "امتحان کردن",
-    "translit": "emtehân kardan",
-    "sv": "att prova / testa",
+    "id": "movâzebe-khodet-bâsh",
+    "pos": "phrase",
+    "fa": "مواظب خودت باش",
+    "translit": "movâzebe khodet bâsh",
+    "sv": "ta hand om dig",
     "examples": [
-      {
-        "fa": "این غذا رو امتحان کن.",
-        "translit": "in ghazâ ro emtehân kon.",
-        "sv": "Prova den här maten."
-      }
+      { "fa": "خداحافظ، مواظب خودت باش.", "translit": "khodâhâfez, movâzebe khodet bâsh.", "sv": "Hejdå, ta hand om dig." }
     ],
-    "tags": ["tema:vardag", "nivå:1"]
+    "tags": ["tema:känslor-humör", "nivå:1"]
   },
   {
-    "id": "dorost-kardan",
-    "pos": "verb",
-    "fa": "درست کردن",
-    "translit": "dorost kardan",
-    "sv": "att fixa / laga / göra i ordning",
+    "id": "hâl-nemikonam",
+   "pos": "phrase",
+   "fa": "حال نمی‌کنم",
+    "translit": "hâl nemikonam",
+    "sv": "jag är inte på humör / jag gillar det inte",
     "examples": [
-      {
-        "fa": "یه چای درست کردم.",
-        "translit": "ye châi dorost kardam.",
-        "sv": "Jag fixade en kopp te."
-      }
+      { "fa": "با این فیلم حال نمی‌کنم.", "translit": "bâ in film hâl nemikonam.", "sv": "Jag är inte på humör för den här filmen / jag gillar inte filmen." }
     ],
-    "tags": ["tema:vardag", "nivå:1"]
+    "tags": ["tema:känslor-humör", "nivå:2"]
+},
+  {
+    "id": "movâfegham",
+    "pos": "phrase",
+    "fa": "موافقم",
+    "translit": "movâfegham",
+    "sv": "jag håller med",
+    "examples": [
+      { "fa": "آره، منم موافقم.", "translit": "âre, manam movâfegham.", "sv": "Ja, jag håller också med." }
+    ],
+    "tags": ["tema:åsikter-resonemang", "nivå:1"]
   },
   {
-    "id": "pashimân-shodan",
-    "pos": "verb",
-    "fa": "پشیمان شدن",
-    "translit": "pashimân shodan",
-    "sv": "att ångra sig",
+    "id": "mokhâlefam",
+    "pos": "phrase",
+    "fa": "مخالفم",
+    "translit": "mokhâlefam",
+    "sv": "jag håller inte med",
     "examples": [
-      {
-        "fa": "زود پشیمون شدم.",
-        "translit": "zud pashimun shodam.",
-        "sv": "Jag ångrade mig snabbt."
-      }
+      { "fa": "نه، من مخالفم.", "translit": "na, man mokhâlefam.", "sv": "Nej, jag håller inte med." }
     ],
-    "tags": ["tema:personlig-utveckling", "nivå:2"]
+    "tags": ["tema:åsikter-resonemang", "nivå:2"]
   },
+  {
+  "id": "jaleb",
+  "pos": "adjective",
+  "fa": "جالب",
+  "translit": "jaleb",
+  "sv": "intressant / kul",
+  "examples": [
+    { "fa": "این فیلم خیلی جالبه.", "translit": "in film kheyli jalebe.", "sv": "Den här filmen är mycket intressant." }
+  ],
+  "tags": ["tema:åsikter-resonemang", "nivå:1"]
+  },
+  {
+  "id": "moshkel",
+  "pos": "noun",
+  "fa": "مشکل",
+  "translit": "moshkel",
+  "sv": "problem",
+  "examples": [
+    { "fa": "به نظر من این کار مشکل داره.", "translit": "be nazar-e man in kâr moshkel dâre.", "sv": "Enligt mig finns det ett problem med det här." }
+  ],
+  "tags": ["tema:åsikter-resonemang", "nivå:1"]
+  },
+  {
+    "id": "be-nazaram",
+    "pos": "phrase",
+    "fa": "به نظرم",
+    "translit": "be nazaram",
+    "sv": "enligt mig / jag tycker",
+    "examples": [
+      { "fa": "به نظرم باید زودتر شروع کنیم.", "translit": "be nazaram bâyad zoodtar shoru’ konim.", "sv": "Jag tycker vi borde börja tidigare." }
+    ],
+    "tags": ["tema:åsikter-resonemang", "nivå:1"]
+  },
+  {
+  "id": "chon",
+  "pos": "conjunction",
+  "fa": "چون",
+  "translit": "chon",
+  "sv": "eftersom / för att",
+  "examples": [
+    { "fa": "نرفتم چون بارون میومد.", "translit": "naraftam chon bârun miyumad.", "sv": "Jag gick inte eftersom det regnade." }
+  ],
+   "tags": ["tema:åsikter-resonemang", "nivå:1"]
+  },
+  {
+    "id": "fekr-mikonam",
+    "pos": "phrase",
+    "fa": "فکر می‌کنم",
+    "translit": "fekr mikonam",
+    "sv": "jag tror / jag tänker",
+    "examples": [
+      { "fa": "فکر می‌کنم حق با توئه.", "translit": "fekr mikonam hagh bâ to-e.", "sv": "Jag tror att du har rätt." }
+    ],
+    "tags": ["tema:åsikter-resonemang", "nivå:1"]
+  },
+  {
+    "id": "be-nazare-to",
+    "pos": "phrase",
+    "fa": "به نظر تو",
+    "translit": "be nazare to",
+    "sv": "enligt dig / vad tycker du?",
+    "examples": [
+      { "fa": "به نظر تو کدوم بهتره؟", "translit": "be nazare to kodum behtare?", "sv": "Vad tycker du är bättre?" }
+    ],
+    "tags": ["tema:åsikter-resonemang", "nivå:1"]
+  },
+  {
+    "id": "be-nazare-man-doroste",
+    "pos": "phrase",
+    "fa": "به نظر من درسته",
+    "translit": "be nazare man doroste",
+    "sv": "jag tycker det är rätt",
+    "examples": [
+      { "fa": "به نظر من درسته که استراحت کنیم.", "translit": "be nazare man doroste ke esterâhat konim.", "sv": "Jag tycker det är rätt att vi vilar." }
+    ],
+    "tags": ["tema:åsikter-resonemang", "nivå:2"]
+  },
+  {
+    "id": "râstesh",
+    "pos": "phrase",
+    "fa": "راستش",
+    "translit": "râstesh",
+    "sv": "ärligt talat",
+    "examples": [
+      { "fa": "راستش بیشتر دوست دارم خونه بمونم.", "translit": "râstesh bishtar doost dâram khune bemunam.", "sv": "Ärligt talat så föredrar jag att stanna hemma."} 
+    ],
+    "tags": ["tema:åsikter-resonemang", "nivå:2"]
+  },
+  {
+    "id": "faghat-tâ-haddi",
+    "pos": "phrase",
+    "fa": "فقط تا حدی",
+    "translit": "faghat tâ haddi",
+    "sv": "bara till viss del",
+    "examples": [
+      { "fa": "فقط تا حدی باهات موافقم.", "translit": "faghat tâ haddi bâhât movâfegham.", "sv": "Jag håller bara delvis med dig." }
+    ],
+    "tags": ["tema:åsikter-resonemang", "nivå:3"]
+  },
+  {
+  "id": "ghabool-kardan",
+  "pos": "verb",
+  "fa": "قبول کردن",
+  "translit": "ghabool kardan",
+  "sv": "att acceptera / gå med på",
+  "examples": [
+    {
+      "fa": "آخرش قبول کردم.", "translit": "âkharesh ghabool kardam.", "sv": "Till slut gick jag med på det." }
+  ],
+  "tags": ["tema:åsikter-resonemang", "nivå:2"]
+  },
+  {
+    "id": "age-râstesh-o-begam",
+    "pos": "phrase",
+    "fa": "اگه راستشو بگم",
+    "translit": "age-râstesh-o-begam",
+    "sv": "om jag ska vara helt ärlig",
+    "examples": [
+      { "fa": "اگه راستشو بگم، خسته شدم.", "translit": "age râstesh-o begam, khaste shodam.", "sv": "Om jag ska vara helt ärlig så är jag trött." }
+    ],
+    "tags": ["tema:åsikter-resonemang", "nivå:3"]
+  },
+  {
+    "id": "be-nazaram-fargh-nemikone",
+    "pos": "phrase",
+    "fa": "به نظرم فرق نمی‌کنه",
+    "translit": "be nazaram fargh nemikone",
+    "sv": "enligt mig spelar det ingen roll",
+    "examples": [
+      { "fa": "به نظرم فرق نمی‌کنه کجا بریم.", "translit": "be nazaram fargh nemikone kojâ berim.", "sv": "För mig spelar det ingen roll vart vi går." }
+    ],
+    "tags": ["tema:åsikter-resonemang", "nivå:2"]
+  },
+  {
+  "id": "be-nazar-miad",
+  "pos": "phrase",
+  "fa": "به نظر میاد",
+  "translit": "be nazar miâd",
+  "sv": "det verkar som",
+  "examples": [
+    { "fa": "به نظر میاد خسته‌ای.", "translit": "be nazar miâd khastei.", "sv": "Det verkar som att du är trött." }
+  ],
+  "tags": ["tema:åsikter-resonemang", "nivå:2"]
+},
   {
     "id": "tasmim-gereftan",
     "pos": "verb",
@@ -852,656 +283,167 @@
     "sv": "att bestämma sig",
     "examples": [
       {
-        "fa": "تصمیم گرفتم بیشتر درس بخونم.",
-        "translit": "tasmim gereftam bishtar dars bekhunam.",
-        "sv": "Jag bestämde mig för att plugga mer."
-      }
-    ],
-    "tags": ["tema:personlig-utveckling", "nivå:2"]
+    "fa": "تصمیم گرفتم یه مدت مسافرت نرم.",  "translit": "tasmim gereftam ye moddat mosâferat naram.", "sv": "Jag bestämde mig för att inte resa på ett tag." }  
+   ],
+    "tags": ["tema:åsikter-resonemang", "nivå:2"]
   },
   {
-    "id": "chetori",
-    "pos": "phrase",
-    "fa": "چطوری؟",
-    "translit": "chetori?",
-    "sv": "Hur är läget?",
-    "examples": [
-      {
-        "fa": "سلام، چطوری؟",
-        "translit": "salâm, chetori?",
-        "sv": "Hej, hur är läget?"
-      }
-    ],
-    "tags": ["fraser", "nivå:1"]
+  "id": "motmaen-budan",
+  "pos": "verb",
+  "fa": "مطمئن بودن",
+  "translit": "motmaen budan",
+  "sv": "att vara säker",
+  "examples": [
+    {
+      "fa": "مطمئن نیستم درست باشه.", "translit": "motmaen nistam dorost bâshe.", "sv": "Jag är inte säker på att det stämmer."}
+  ],
+  "tags": ["tema:åsikter-resonemang", "nivå:1"]
   },
   {
-    "id": "dastet-dard-nakone",
+    "id": "che-khabar",
     "pos": "phrase",
-    "fa": "دستت درد نکنه",
-    "translit": "dastet dard nakone",
-    "sv": "Tack (vardagligt, bokst. 'må din hand inte göra ont')",
+    "fa": "چه خبر؟",
+    "translit": "che khabar?",
+    "sv": "hur är läget?",
     "examples": [
-      {
-        "fa": "غذا خیلی خوشمزه بود، دستت درد نکنه.",
-        "translit": "ghazâ kheili khoshmaze bud, dastet dard nakone.",
-        "sv": "Maten var jättegod, tack."
-      }
+      { "fa": "سلام، چه خبر؟", "translit": "salâm, che khabar?", "sv": "Hej, hur är läget?" }
     ],
-    "tags": ["fraser", "nivå:1"]
+    "tags": ["tema:socialt-småsnack", "nivå:1"]
   },
   {
-    "id": "khodâ-nagahdar",
+    "id": "vâghân",
     "pos": "phrase",
-    "fa": "خدا نگهدار",
-    "translit": "khodâ negahdâr",
-    "sv": "Hejdå",
+    "fa": "واقعاً؟",
+    "translit": "vâghân?",
+    "sv": "verkligen?",
     "examples": [
-      {
-        "fa": "باشه، فردا می‌بینمت. خدا نگهدار.",
-        "translit": "bâshe, fardâ mibinamet. khodâ negahdâr.",
-        "sv": "Okej, vi ses imorgon. Hejdå."
-      }
+      { "fa": "جدی میگی؟ واقعاً؟", "translit": "jedi migi? vâghân?", "sv": "Menar du allvar? Verkligen?" }
     ],
-    "tags": ["fraser", "nivå:1"]
+    "tags": ["tema:socialt-småsnack", "nivå:1"]
   },
   {
-    "id": "halet-khobeh",
+    "id": "dorogh-migi",
     "pos": "phrase",
-    "fa": "حالت خوبه؟",
-    "translit": "hâlet khube?",
-    "sv": "Mår du bra?",
+    "fa": "دروغ می‌گی!",
+    "translit": "dorogh migi!",
+    "sv": "du skämtar! / du ljuger!",
     "examples": [
-      {
-        "fa": "سلام، حالت خوبه؟",
-        "translit": "salâm, hâlet khube?",
-        "sv": "Hej, mår du bra?"
-      }
+      { "fa": "واقعا؟ دروغ می‌گی!", "translit": "vâghân? dorogh migi!", "sv": "På riktigt? Du skämtar!" }
     ],
-    "tags": ["fraser", "nivå:1"]
-  },
-  {
-    "id": "mersi",
-    "pos": "phrase",
-    "fa": "مرسی",
-    "translit": "mersi",
-    "sv": "Tack",
-    "examples": [
-      {
-        "fa": "مرسی از کمکت.",
-        "translit": "mersi az komaket.",
-        "sv": "Tack för din hjälp."
-      }
-    ],
-    "tags": ["fraser", "nivå:1"]
-  },
-  {
-    "id": "motasefam",
-    "pos": "phrase",
-    "fa": "متأسفم",
-    "translit": "motasefam",
-    "sv": "Förlåt / Jag är ledsen",
-    "examples": [
-      {
-        "fa": "دیر کردم، متأسفم.",
-        "translit": "dir kardam, motasefam.",
-        "sv": "Jag är sen, förlåt."
-      }
-    ],
-    "tags": ["fraser", "nivå:1"]
-  },
-  {
-    "id": "bebakhshid",
-    "pos": "phrase",
-    "fa": "ببخشید",
-    "translit": "bebakhshid",
-    "sv": "Ursäkta",
-    "examples": [
-      {
-        "fa": "ببخشید، میشه راهو نشون بدین؟",
-        "translit": "bebakhshid, mishe râho neshun bedin?",
-        "sv": "Ursäkta, kan ni visa vägen?"
-      }
-    ],
-    "tags": ["fraser", "nivå:1"]
-  },
-  {
-    "id": "hâleto-mifahmam",
-    "pos": "phrase",
-    "fa": "حالتو می‌فهمم",
-    "translit": "hâleto mifahmam",
-    "sv": "Jag förstår hur du känner",
-    "examples": [
-      {
-        "fa": "می‌دونم سخته، حالت رو می‌فهمم.",
-        "translit": "midunam sakhte, hâleto mifahmam.",
-        "sv": "Jag vet att det är svårt, jag förstår hur du känner."
-      }
-    ],
-    "tags": ["fraser", "nivå:2"]
-  },
-  {
-    "id": "bokhor-bebin",
-    "pos": "phrase",
-    "fa": "بخور ببین خوشت میاد یا نه",
-    "translit": "bokhor bebin khoshet miâd yâ na",
-    "sv": "Ät och se om du gillar det eller inte",
-    "examples": [
-      {
-        "fa": "این میوه رو بخور ببین خوشت میاد یا نه.",
-        "translit": "in mive ro bokhor bebin khoshet miâd yâ na.",
-        "sv": "Ät den här frukten och se om du gillar den eller inte."
-      }
-    ],
-    "tags": ["fraser", "nivå:1"]
+    "tags": ["tema:socialt-småsnack", "nivå:2"]
   },
   {
     "id": "khodâ-ro-shokr",
     "pos": "phrase",
     "fa": "خدا رو شکر",
     "translit": "khodâ ro shokr",
-    "sv": "Tack och lov",
+    "sv": "som tur är / tack och lov",
     "examples": [
-      {
-        "fa": "خدا رو شکر همه‌چیز خوب شد.",
-        "translit": "khodâ ro shokr hamechiz khub shod.",
-        "sv": "Tack och lov blev allt bra."
-      }
+      { "fa": "امتحانم خوب شد، خدا رو شکر.", "translit": "emtehânam khoob shod, khodâ ro shokr.", "sv": "Mitt prov gick bra, som tur är." }
     ],
-    "tags": ["fraser", "nivå:1"]
+    "tags": ["tema:socialt-småsnack", "nivå:1"]
+  },
+  {
+    "id": "eyvâa",
+    "pos": "phrase",
+    "fa": "ای‌وا",
+    "translit": "eyvâa!",
+    "sv": "oj! / wow!",
+    "examples": [
+      { "fa": "ای‌وا! چه خوب شد.", "translit": "eyvâa! che khoob shod.", "sv": "Wow! Vad bra det blev." }
+    ],
+    "tags": ["tema:socialt-småsnack", "nivå:1"]
+  },
+  {
+    "id": "che-bâhâl",
+    "pos": "phrase",
+    "fa": "چه باحال!",
+    "translit": "che bâhâl!",
+    "sv": "vad coolt! / vad kul!",
+    "examples": [
+      { "fa": "مسافرت رفتی؟ چه باحال!", "translit": "mosâferat rafti? che bâhâl!", "sv": "Har du varit på resa? Vad kul!" }
+    ],
+    "tags": ["tema:socialt-småsnack", "nivå:1"]
+  },
+  {
+    "id": "khob-digeh",
+    "pos": "phrase",
+    "fa": "خب دیگه",
+    "translit": "khob digeh",
+    "sv": "nåja",
+    "examples": [
+      { "fa": "خب دیگه، کاریش نمیشه کرد.", "translit": "khob digeh, kârish nemishe kard.", "sv": "Nåja, det går inte att göra något åt." }
+    ],
+    "tags": ["tema:socialt-småsnack", "nivå:2"]
+  },
+  {
+    "id": "dige-chi",
+    "pos": "phrase",
+    "fa": "دیگه چی؟",
+    "translit": "dige chi?",
+    "sv": "vad mer? / något mer?",
+    "examples": [
+      { "fa": "خب تعریف کن، دیگه چی؟", "translit": "khob tarif kon, dige chi?", "sv": "Berätta då, vad mer?" }
+    ],
+    "tags": ["tema:socialt-småsnack", "nivå:2"]
   },
   {
     "id": "lotfan",
     "pos": "phrase",
     "fa": "لطفاً",
     "translit": "lotfan",
-    "sv": "snälla / var snäll och…",
+    "sv": "snälla / var snäll och",
     "examples": [
-      {
-        "fa": "لطفاً پنجره رو ببند.",
-        "translit": "lotfan panjare ro beband.",
-        "sv": "Snälla stäng fönstret."
-      }
+      { "fa": "میشه لطفاً درو ببندی؟", "translit": "mishe lotfan daro bebandi?", "sv": "Kan du snälla stänga dörren?" }
     ],
-    "tags": ["fraser", "nivå:1"]
+    "tags": ["tema:socialt-småsnack", "nivå:1"]
   },
   {
-    "id": "haleh-shoma-chetore",
+    "id": "bi-khiyâl",
     "pos": "phrase",
-    "fa": "حالِ شما چطوره؟",
-    "translit": "hâle shomâ chetore?",
-    "sv": "Hur mår ni? (artigt)",
+    "fa": "بی‌خیال",
+    "translit": "bi-khiyâl",
+    "sv": "glöm det / strunta i det",
     "examples": [
-      {
-        "fa": "سلام، حالِ شما چطوره؟",
-        "translit": "salâm, hâle shomâ chetore?",
-        "sv": "Hej, hur mår ni?"
-      }
+      { "fa": "بی‌خیال، ارزش نداره.", "translit": "bi-khiyâl, arzesh nadâre.", "sv": "Äh, glöm det, det är inte värt det." }
     ],
-    "tags": ["fraser", "nivå:1"]
+    "tags": ["tema:idiomer-uttryck", "nivå:1"]
   },
   {
-    "id": "hichi-nist",
+    "id": "delam-gerefte",
     "pos": "phrase",
-    "fa": "هیچی نیست",
-    "translit": "hichi nist",
-    "sv": "det är inget / ingen fara",
+    "fa": "دلم گرفته",
+    "translit": "delam gerefte",
+    "sv": "jag känner mig nere / ledsen",
     "examples": [
-      {
-        "fa": "ناراحت نباش، هیچی نیست.",
-        "translit": "nârâhat nabâsh, hichi nist.",
-        "sv": "Var inte ledsen, det är ingen fara."
-      }
+      { "fa": "امروز دلم گرفته.", "translit": "emruz delam gerefte.", "sv": "Idag känner jag mig nere." }
     ],
-    "tags": ["fraser", "nivå:1"]
+    "tags": ["tema:idiomer-uttryck", "nivå:2"]
   },
   {
-    "id": "dige-chekhabar",
+    "id": "aslan-mohem-nist",
     "pos": "phrase",
-    "fa": "دیگه چه خبر؟",
-    "translit": "dige che khabar?",
-    "sv": "Vad mer händer? / Vad är nytt?",
+    "fa": "اصلاً مهم نیست",
+    "translit": "aslan mohem nist",
+    "sv": "det spelar ingen roll alls",
     "examples": [
-      {
-        "fa": "خوبم، مرسی. دیگه چه خبر؟",
-        "translit": "khubam, mersi. dige che khabar?",
-        "sv": "Jag mår bra, tack. Vad är nytt?"
-      }
+      { "fa": "اشتباه شد؟ اصلاً مهم نیست.", "translit": "eshtebâh shod? aslan mohem nist.", "sv": "Blev det fel? Det spelar ingen roll alls." }
     ],
-    "tags": ["fraser", "nivå:1"]
+    "tags": ["tema:idiomer-uttryck", "nivå:1"]
   },
   {
-    "id": "chetori",
-    "pos": "phrase",
-    "fa": "چطوری؟",
-    "translit": "chetori?",
-    "sv": "Hur är läget?",
-    "examples": [
-      {
-        "fa": "سلام، چطوری؟",
-        "translit": "salâm, chetori?",
-        "sv": "Hej, hur är läget?"
-      }
-    ],
-    "tags": ["fraser", "nivå:1"]
-  },
-  {
-    "id": "khodâ-ro-shokr",
-    "pos": "phrase",
-    "fa": "خدا رو شکر",
-    "translit": "khodâ ro shokr",
-    "sv": "tack och lov",
-    "examples": [
-      {
-        "fa": "خدا رو شکر همه سالم هستن.",
-        "translit": "khodâ ro shokr hame sâlem hastan.",
-        "sv": "Tack och lov är alla friska."
-      }
-    ],
-    "tags": ["fraser", "nivå:1"]
-  },
-  {
-    "id": "movafagh-bashi",
-    "pos": "phrase",
-    "fa": "موفق باشی",
-    "translit": "movafagh bâshi",
-    "sv": "lycka till",
-    "examples": [
-      {
-        "fa": "امتحان داری؟ موفق باشی!",
-        "translit": "emtehân dâri? movafagh bâshi!",
-        "sv": "Har du prov? Lycka till!"
-      }
-    ],
-    "tags": ["fraser", "nivå:1"]
-  },
-  {
-    "id": "bebin",
-    "pos": "phrase",
-    "fa": "ببین",
-    "translit": "bebin",
-    "sv": "kolla / alltså / hör här",
-    "examples": [
-      {
-        "fa": "ببین، این کار خیلی مهمه.",
-        "translit": "bebin, in kâr kheili moheme.",
-        "sv": "Alltså, det här är väldigt viktigt."
-      }
-    ],
-    "tags": ["fraser", "nivå:1"]
-  },
-  {
-    "id": "va",
-    "pos": "conjunction",
-    "fa": "و",
-    "translit": "va",
-    "sv": "och",
-    "examples": [
-      {
-        "fa": "من و تو رفتیم.",
-        "translit": "man o to raftim.",
-        "sv": "Jag och du gick."
-      }
-    ],
-    "tags": ["tema:grammatik", "nivå:1"]
-  },
-  {
-    "id": "yâ",
-    "pos": "conjunction",
-    "fa": "یا",
-    "translit": "yâ",
-    "sv": "eller",
-    "examples": [
-      {
-        "fa": "چای یا قهوه می‌خوای؟",
-        "translit": "châi yâ ghahve mikhâi?",
-        "sv": "Vill du ha te eller kaffe?"
-      }
-    ],
-    "tags": ["tema:grammatik", "nivå:1"]
-  },
-  {
-    "id": "ammâ",
-    "pos": "conjunction",
-    "fa": "اما",
-    "translit": "ammâ",
-    "sv": "men",
-    "examples": [
-      {
-        "fa": "می‌خواستم بیام، اما نشد.",
-        "translit": "mikhâstam biyâm, ammâ nashod.",
-        "sv": "Jag ville komma, men det gick inte."
-      }
-    ],
-    "tags": ["tema:grammatik", "nivå:1"]
-  },
-  {
-    "id": "chon",
-    "pos": "conjunction",
-    "fa": "چون",
-    "translit": "chon",
-    "sv": "eftersom / för att",
-    "examples": [
-      {
-        "fa": "نرفتم چون بارون میومد.",
-        "translit": "naraftam chon bârun miyumad.",
-        "sv": "Jag gick inte eftersom det regnade."
-      }
-    ],
-    "tags": ["tema:grammatik", "nivå:1"]
-  },
-  {
-    "id": "agar",
-    "pos": "conjunction",
-    "fa": "اگر",
-    "translit": "agar",
-    "sv": "om",
-    "examples": [
-      {
-        "fa": "اگر وقت داری، بیا.",
-        "translit": "agar vaght dâri, biyâ.",
-        "sv": "Om du har tid, kom."
-      }
-    ],
-    "tags": ["tema:grammatik", "nivå:1"]
-  },
-  {
-    "id": "ke",
-    "pos": "conjunction",
-    "fa": "که",
-    "translit": "ke",
-    "sv": "att / som",
-    "examples": [
-      {
-        "fa": "می‌دونم که خسته‌ای.",
-        "translit": "midunam ke khastei.",
-        "sv": "Jag vet att du är trött."
-      }
-    ],
-    "tags": ["tema:grammatik", "nivå:1"]
-  },
-  {
-    "id": "hanooz",
-    "pos": "adverb",
-    "fa": "هنوز",
-    "translit": "hanooz",
-    "sv": "fortfarande",
-    "examples": [
-      {
-        "fa": "هنوز خونه‌ست.",
-        "translit": "hanooz khunast.",
-        "sv": "Han/hon är fortfarande hemma."
-      }
-    ],
-    "tags": ["tema:tid", "nivå:1"]
-  },
-  {
-    "id": "dige",
-    "pos": "adverb",
-    "fa": "دیگه",
-    "translit": "dige",
-    "sv": "längre / mer / alltså (vard.)",
-    "examples": [
-      {
-        "fa": "دیگه نمی‌خوام.",
-        "translit": "dige nemikhâm.",
-        "sv": "Jag vill inte ha mer."
-      }
-    ],
-    "tags": ["tema:vardag", "nivå:1"]
-  },
-  {
-    "id": "hamishe",
-    "pos": "adverb",
-    "fa": "همیشه",
-    "translit": "hamishe",
-    "sv": "alltid",
-    "examples": [
-      {
-        "fa": "همیشه دیر میاد.",
-        "translit": "hamishe dir miyâd.",
-        "sv": "Han/hon kommer alltid sent."
-      }
-    ],
-    "tags": ["tema:tid", "nivå:1"]
-  },
-  {
-    "id": "gâhi",
-    "pos": "adverb",
-    "fa": "گاهی",
-    "translit": "gâhi",
-    "sv": "ibland",
-    "examples": [
-      {
-        "fa": "گاهی بیرون میریم.",
-        "translit": "gâhi birun mirim.",
-        "sv": "Vi går ut ibland."
-      }
-    ],
-    "tags": ["tema:tid", "nivå:1"]
-  },
-  {
-    "id": "zud",
-    "pos": "adverb",
-    "fa": "زود",
-    "translit": "zud",
-    "sv": "tidigt / snabbt",
-    "examples": [
-      {
-        "fa": "زود بیا.",
-        "translit": "zud biyâ.",
-        "sv": "Kom tidigt / kom snabbt."
-      }
-    ],
-    "tags": ["tema:tid", "nivå:1"]
-  },
-  {
-    "id": "dir",
-    "pos": "adverb",
-    "fa": "دیر",
-    "translit": "dir",
-    "sv": "sent",
-    "examples": [
-      {
-        "fa": "دیر رسیدم.",
-        "translit": "dir residam.",
-        "sv": "Jag kom sent."
-      }
-    ],
-    "tags": ["tema:tid", "nivå:1"]
-  },
-  {
-    "id": "chi",
-    "pos": "question",
-    "fa": "چی",
-    "translit": "chi",
-    "sv": "vad",
-    "examples": [
-      {
-        "fa": "چی گفتی؟",
-        "translit": "chi gofti?",
-        "sv": "Vad sa du?"
-      }
-    ],
-    "tags": ["tema:fråga", "nivå:1"]
-  },
-  {
-    "id": "key",
-    "pos": "question",
-    "fa": "کی",
-    "translit": "key",
-    "sv": "när",
-    "examples": [
-      {
-        "fa": "کی میای؟",
-        "translit": "key miâi?",
-        "sv": "När kommer du?"
-      }
-    ],
-    "tags": ["tema:fråga", "nivå:1"]
-  },
-  {
-    "id": "kojâ",
-    "pos": "question",
-    "fa": "کجا",
-    "translit": "kojâ",
-    "sv": "var",
-    "examples": [
-      {
-        "fa": "کجا میری؟",
-        "translit": "kojâ miri?",
-        "sv": "Vart går du?"
-      }
-    ],
-    "tags": ["tema:fråga", "nivå:1"]
-  },
-  {
-    "id": "cherâ",
-    "pos": "question",
-    "fa": "چرا",
-    "translit": "cherâ",
-    "sv": "varför",
-    "examples": [
-      {
-        "fa": "چرا دیر کردی؟",
-        "translit": "cherâ dir kardi?",
-        "sv": "Varför blev du sen?"
-      }
-    ],
-    "tags": ["tema:fråga", "nivå:1"]
-  },
-  {
-    "id": "chetowr",
-    "pos": "question",
-    "fa": "چطور",
-    "translit": "chetowr",
-    "sv": "hur",
-    "examples": [
-      {
-        "fa": "چطور اومدی؟",
-        "translit": "chetowr umadi?",
-        "sv": "Hur kom du?"
-      }
-    ],
-    "tags": ["tema:fråga", "nivå:1"]
-  },
-  {
-    "id": "khob",
-    "pos": "particle",
-    "fa": "خب",
-    "translit": "khob",
-    "sv": "okej / nåväl",
-    "examples": [
-      {
-        "fa": "خب، بریم.",
-        "translit": "khob, berim.",
-        "sv": "Okej, vi går."
-      }
-    ],
-    "tags": ["tema:vardag", "nivå:1"]
-  },
-  {
-    "id": "âre",
-    "pos": "particle",
-    "fa": "آره",
-    "translit": "âre",
-    "sv": "ja",
-    "examples": [
-      {
-        "fa": "آره، درسته.",
-        "translit": "âre, doroste.",
-        "sv": "Ja, det stämmer."
-      }
-    ],
-    "tags": ["tema:vardag", "nivå:1"]
-  },
-  {
-    "id": "na",
-    "pos": "particle",
-    "fa": "نه",
-    "translit": "na",
-    "sv": "nej",
-    "examples": [
-      {
-        "fa": "نه، نمی‌خوام.",
-        "translit": "na, nemikhâm.",
-        "sv": "Nej, jag vill inte."
-      }
-    ],
-    "tags": ["tema:vardag", "nivå:1"]
-  },
-  {
-  "id": "sob",
-  "pos": "noun",
-  "fa": "صبح",
-  "translit": "sob",
-  "sv": "morgon",
+  "id": "belakhare",
+  "pos": "adverb",
+  "fa": "بالاخره",
+  "translit": "belakhare",
+  "sv": "äntligen / till slut",
   "examples": [
     {
-      "fa": "صبح زود بیدار شدم.",
-      "translit": "sob-e zud bidâr shodam.",
-      "sv": "Jag vaknade tidigt på morgonen."
-    }
+      "fa": "بالاخره اتوبوس اومد.", "translit": "belakhare otobus umad.", "sv": "Till slut kom bussen." }
   ],
   "tags": ["tema:tid", "nivå:1"]
-},
-{
-  "id": "zohr",
-  "pos": "noun",
-  "fa": "ظهر",
-  "translit": "zohr",
-  "sv": "middag / mitt på dagen",
-  "examples": [
-    {
-      "fa": "ظهر با هم ناهار خوردیم.",
-      "translit": "zohr bâ ham nâhâr khordim.",
-      "sv": "Vi åt lunch tillsammans vid middagstid."
-    }
-  ],
-  "tags": ["tema:tid", "nivå:1"]
-},
-{
-  "id": "asr",
-  "pos": "noun",
-  "fa": "عصر",
-  "translit": "asr",
-  "sv": "eftermiddag",
-  "examples": [
-    {
-      "fa": "عصر میای خونمون؟",
-      "translit": "asr miây khunemun?",
-      "sv": "Kommer du hem till oss på eftermiddagen?"
-    }
-  ],
-  "tags": ["tema:tid", "nivå:1"]
-},
-{
-  "id": "shab",
-  "pos": "noun",
-  "fa": "شب",
-  "translit": "shab",
-  "sv": "kväll / natt",
-  "examples": [
-    {
-      "fa": "شب دیر خوابیدم.",
-      "translit": "shab dir khâbidam.",
-      "sv": "Jag somnade sent på kvällen."
-    }
-  ],
-  "tags": ["tema:tid", "nivå:1"]
-},
-{
-  "id": "nâhâr",
-  "pos": "noun",
-  "fa": "ناهار",
-  "translit": "nâhâr",
-  "sv": "lunch",
-  "examples": [
-    {
-      "fa": "ناهار چی خوردی؟",
-      "translit": "nâhâr chi khordi?",
-      "sv": "Vad åt du till lunch?"
-    }
-  ],
-  "tags": ["tema:mat", "nivå:1"]
-}
+  }
+
+
+
 ]
