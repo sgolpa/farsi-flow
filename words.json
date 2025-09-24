@@ -11,6 +11,17 @@
     "tags": ["tema:känslor-humör", "nivå:2"]
   },
   {
+  "id": "zogh-dâram",
+  "pos": "phrase",
+  "fa": "ذوق دارم",
+  "translit": "zogh dâram",
+  "sv": "jag är peppad / taggad",
+  "examples": [
+    { "fa": "خیلی ذوق دارم برای مسافرت.", "translit": "kheyli zogh dâram barâye mosâferat.", "sv": "Jag är superpepp inför resan." }
+  ],
+  "tags": ["tema:känslor-humör", "nivå:1"]
+  },
+  {
     "id": "delam-barat-tang-shode",
     "pos": "phrase",
     "fa": "دلم برات تنگ شده",
@@ -442,8 +453,51 @@
       "fa": "بالاخره اتوبوس اومد.", "translit": "belakhare otobus umad.", "sv": "Till slut kom bussen." }
   ],
   "tags": ["tema:tid", "nivå:1"]
-  }
-
+  },
+   {
+    "id": "kojâ-jam-mishim",
+    "pos": "phrase",
+    "fa": "کجا جمع می‌شیم؟",
+    "translit": "kojâ jam mishim?",
+    "sv": "var ses vi?",
+    "examples": [
+      { "fa": "کجا جمع می‌شیم؟", "translit": "kojâ jam mishim?", "sv": "Var ses vi?" }
+    ],
+    "tags": ["tema:socialt-fest", "nivå:1"]
+  },
+   {
+    "id": "kheyli-khosh-gozasht",
+    "pos": "phrase",
+    "fa": "خیلی خوش گذشت",
+    "translit": "kheyli khosh gozasht",
+    "sv": "det var supertrevligt",
+    "examples": [
+      { "fa": "مرسی، خیلی خوش گذشت.", "translit": "mersi, kheyli khosh gozasht.", "sv": "Tack, det var supertrevligt." }
+    ],
+    "tags": ["tema:socialt-fest", "nivå:1"]
+  },
+  {
+  "id": "gharâr-dâshtan",
+  "pos": "verb",
+  "fa": "قرار داشتن",
+  "translit": "gharâr dâshtan",
+  "sv": "att ha en plan / vara överens om något",
+  "examples": [
+    { "fa": "برای فردا ساعت هفت قرار گذاشتیم.", "translit": "barâye fardâ sâ'at haft gharâr gozashtim.", "sv": "Vi bestämde klockan sju till imorgon." }
+  ],
+  "tags": ["tema:planer-möten", "nivå:1"]
+},
+{
+  "id": "daf-e-bad",
+  "pos": "phrase",
+  "fa": "دفعهٔ بعد",
+  "translit": "dafe-ye bad",
+  "sv": "nästa gång",
+  "examples": [
+    { "fa": "دفعهٔ بعد می‌بینمت.", "translit": "dafe-ye bad mibinamet.", "sv": "Vi ses nästa gång." }
+  ],
+  "tags": ["tema:tid", "nivå:1"]
+}
 
 
 ]
