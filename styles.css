@@ -204,7 +204,7 @@ header, footer { width: 100%; max-width: 420px; }
   text-align: center;
   font-family: var(--font-primary);
   font-size: 12px;
-  font-style: italic;
+  font-style: normal;
   font-weight: 500;
   line-height: 16px; /* 133.333% */
 }
@@ -255,7 +255,7 @@ header, footer { width: 100%; max-width: 420px; }
   text-align: center;
   font-family: var(--font-primary);
   font-size: 12px;
-  font-style: italic;
+  font-style: normal;
   font-weight: 500;
   line-height: 16px; /* 133.333% */
 }
