@@ -11,22 +11,23 @@
 
   <header>
     <img src="logo.svg" alt="farsiflow logo" class="logo">
-  <button id="modeToggle" class="top-btn">
-    <span id="modeLabel">Farsi → Svenska</span>
-  </button>
-  <button id="newSession" class="top-btn">Ny session</button>
-</header>
+    <button id="modeToggle" class="top-btn">
+      <span id="modeLabel">Farsi → Svenska</span>
+    </button>
+    <div class="top-actions">
+      <button id="newSession" class="top-btn">Ny session</button>
+      <button id="startQuizBtn" class="top-btn">Quiz</button>
+    </div>
+  </header>
 
   <main>
     <!-- Kortet -->
     <section id="card" aria-live="polite" aria-atomic="true">
       <div id="front" role="group" aria-label="Framsida">
-  <p id="front-fa" dir="rtl"></p>
-  <button id="revealBtn" class="btn primary" aria-controls="back">
-    Visa
-  </button>
-</div>
-
+        <p id="front-fa" dir="rtl"></p>
+        <button id="revealBtn" class="btn primary" aria-controls="back">
+          Visa
+        </button>
       </div>
 
       <div id="back" role="group" aria-label="Baksida" hidden>
@@ -45,20 +46,36 @@
     </section>
 
     <!-- Graderingsknappar: syns först efter Visa -->
-   <section id="grading" aria-label="Gradering" hidden>
+    <section id="grading" aria-label="Gradering" hidden>
     <button id="grade-1" class="btn grade" data-grade="1" aria-keyshortcuts="1">
       <span class="emoji">😖</span>
       <span class="label">Svårt</span>
     </button>
     <button id="grade-2" class="btn grade" data-grade="2" aria-keyshortcuts="2">
-      <span class="emoji">🙂</span>
+      <span class="emoji">😐</span>
       <span class="label">Okej</span>
     </button>
     <button id="grade-3" class="btn grade" data-grade="3" aria-keyshortcuts="3">
-      <span class="emoji">🤓</span>
+      <span class="emoji">😄</span>
       <span class="label">Lätt</span>
     </button>
 </section>
+
+    <section id="quiz" hidden aria-live="polite" aria-atomic="true">
+      <div class="quiz-card">
+        <p id="quiz-prompt" dir="rtl"></p>
+        <input id="quiz-input" type="text" placeholder="Skriv svenska här" aria-label="Ditt svar" />
+        <div class="actions">
+          <button id="quiz-submit" class="btn primary">Svara</button>
+          <button id="quiz-skip" class="btn secondary">Hoppa över</button>
+        </div>
+        <div id="quiz-feedback" aria-live="polite"></div>
+      </div>
+      <div class="divider"></div>
+      <div id="quiz-status">
+        <span id="quiz-progress"></span>
+      </div>
+    </section>
 
   </main>
 
@@ -69,5 +86,6 @@
   </footer>
 
   <script src="app.js" defer></script>
+  <script src="quiz.js" defer></script>
 </body>
 </html>
